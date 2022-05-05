@@ -1,0 +1,151 @@
+html {  
+    scroll-behavior: smooth;  
+}
+
+.head1 {
+    font-size:40px;
+    font-weight:bold;
+}
+
+.head2 {
+    font-size:17px;
+    margin-left:10px;
+    margin-bottom:15px;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    background-position: center;
+    background-color: #fff;
+    background-size: cover;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    padding:10px 0px 10px 0px;
+    color:#000;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.menu a {
+    float: left;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.menu-log {
+    right: auto;
+    float: right;
+}
+
+.addFirstImage {
+    background-image: url("images/go-green-ngo.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+}
+
+.addSecondImage {
+    background-image: url("images/new.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container-fluid {
+    padding: 0 !important;
+     margin: 0 !important;
+
+}
+
+.zero-Padding {
+    padding: 0 !important;
+}
+
+.zero-Margin {
+    margin: o !important;
+}
+
+.ten-Margin {
+    margin-top: 20px !important;
+}
+
+.addHeight {
+    height: 30px;
+}
+
+.jumbotron {
+    background-color: #fff;
+}
+
+/* Extra small devices (phones, 767px and down) */
+@media only screen and (max-width: 767px) {
+    .addHeight {
+        display: none;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 768px) and (max-width: 834px) {
+    .addHeight {
+        display: none;
+    }
+
+    div #about.jumbotron {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 835px) and (max-width: 899px) {
+    .addHeight {
+        height: 10px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 900px) and (max-width: 980px) {
+    .addHeight {
+        height: 22px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 981px) and (max-width: 1030px) {
+    .addHeight {
+        height: 40px;
+    }
+}
+
+@media only screen and (min-width: 1031px) and (max-width: 1150px) {
+    .addHeight {
+        height: 60px;
+    }
+}
+
+@media only screen and (min-width: 1151px) {
+    .addHeight {
+        height: 80px;
+    }
+}
